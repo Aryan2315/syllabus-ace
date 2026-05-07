@@ -1,1 +1,4 @@
 project_id = "fkzpoubdygewmpchjdoj"
+
+[functions.generate-study-guide]
+verify_jwt = false
