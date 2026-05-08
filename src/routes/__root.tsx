@@ -80,6 +80,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "StudyForge — AI Study Guide Generator" },
+      { name: "twitter:description", content: "Transform any syllabus into a structured study guide with AI-generated questions." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/c3fde686-c0c4-4d04-9449-1e28e2cea9de" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/c3fde686-c0c4-4d04-9449-1e28e2cea9de" },
     ],
     links: [
       {
